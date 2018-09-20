@@ -19,7 +19,6 @@ public class Rectangle {
 	
 	@Override
 	public String toString() {
-		return super.toString(); //Rectangle(lengthxwidth)
-	}
-	
+		return getClass() + "(" + getLength() + "x" + getWidth() + ")";	
+	}	
 }
