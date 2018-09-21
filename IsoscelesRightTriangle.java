@@ -8,7 +8,8 @@ public class IsoscelesRightTriangle {
 	}
 	
 	public double hypotenuse() {
-		return leg; //todo
+		double hyp = Math.hypot(leg, leg);
+		return Math.round(hyp * 10) / 10d;
 	}
 
 	public int getLeg() {
@@ -17,7 +18,6 @@ public class IsoscelesRightTriangle {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return getClass() + "(" + getLeg() + ")";	
+		return getClass().getSimpleName() + "(" + getLeg() + ")";	
 	}
 }

@@ -26,5 +26,11 @@ public class InheritanceApp {
 		System.out.println("Circumference: " + myCircle.circumference());
 		System.out.println("Radius: " + myCircle.getRadius());
 		System.out.println();
+		
+		Rectangle rectangle2 = mySquare;
+		System.out.println("rectangle2: ");
+		System.out.println("-----------");
+		System.out.println(rectangle2.toString());
+		
 	}
 }

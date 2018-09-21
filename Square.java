@@ -15,7 +15,7 @@ public class Square extends Rectangle{
 		// Override the toString method so that it 
 		// will return a String of the following form:
 		// Square(side) e.g. Square(4)
-		return getClass() + "(" + getLength() + ")";
+		return getClass().getSimpleName() + "(" + getLength() + ")";
 	}
 
 }

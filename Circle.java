@@ -7,13 +7,13 @@ public class Circle {
 		this.radius = radius;
 	}
 	
-	public void diameter() {
-		//TODO
-		
+	public int diameter() {
+		return radius * 2;
 	}
 	
-	public void circumference() {
-		//TODO
+	public double circumference() {
+		double circumference = 2 * Math.PI * radius;
+	    return Math.round(circumference * 10)/10d;
 		
 	}
 
@@ -23,6 +23,6 @@ public class Circle {
 	
 	@Override
 	public String toString() {
-		return getClass() + "(" + getRadius() + ")";
+		return getClass().getSimpleName() + "(" + getRadius() + ")";
 	}
 }
