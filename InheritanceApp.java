@@ -31,6 +31,8 @@ public class InheritanceApp {
 		System.out.println("rectangle2: ");
 		System.out.println("-----------");
 		System.out.println(rectangle2.toString());
+		System.out.println("Length: " + rectangle2.getLength());
+		System.out.println("Width: " + rectangle2.getWidth());
 		
 	}
 }
