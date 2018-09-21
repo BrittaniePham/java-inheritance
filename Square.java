@@ -1,3 +1,9 @@
+/* 
+* Brittanie Pham
+* CSIS1410
+* A04 Inheritance
+*/
+
 package a04_inheritance;
 
 public class Square extends Rectangle{

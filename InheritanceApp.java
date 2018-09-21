@@ -1,3 +1,9 @@
+/* 
+* Brittanie Pham
+* CSIS1410
+* A04 Inheritance
+*/
+
 package a04_inheritance;
 
 public class InheritanceApp {
@@ -33,6 +39,17 @@ public class InheritanceApp {
 		System.out.println(rectangle2.toString());
 		System.out.println("Length: " + rectangle2.getLength());
 		System.out.println("Width: " + rectangle2.getWidth());
+		System.out.println();
 		
+		Rectangle[] rectangles = {rectangle2, mySquare, myRectangle};
+		System.out.println("Rectangle Array: ");
+		System.out.println("----------------");
+		for(Rectangle r : rectangles) {
+			System.out.println(r.toString());
+			System.out.println("Length: " + r.getLength());
+			System.out.println("Width: " + r.getWidth());
+			System.out.println();
+			
+		}
 	}
 }
