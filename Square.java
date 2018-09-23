@@ -6,16 +6,32 @@
 
 package a04_inheritance;
 
+/**
+ *  This class creates a square
+ * @author Brittanie Pham
+ *
+ */
 public class Square extends Rectangle{
 
+	/**
+	 * constructor to initialize fields of a square
+	 * @param side side of square
+	 */
 	public Square(int side) {
 		super(side, side);
 	}
 	
+	/**
+	 * getter method that returns the length of a side of the square
+	 * @return
+	 */
 	public int getSide() {
 		return super.getLength();
 	}
 	
+	/**
+	 * toString method override to print the Class name and the param side
+	 */
 	@Override
 	public String toString() {
 		// Override the toString method so that it 

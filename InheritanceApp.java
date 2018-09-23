@@ -6,6 +6,11 @@
 
 package a04_inheritance;
 
+/**
+ * main method to print output 
+ * @author Brittanie Pham
+ *
+ */
 public class InheritanceApp {
 	public static void main(String[] args) {
 		Rectangle myRectangle = new Rectangle(5,4);
